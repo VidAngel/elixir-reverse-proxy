@@ -22,8 +22,7 @@ defmodule ReverseProxy.Mixfile do
   end
 
   defp deps do
-    [{:plug, "~> 1.2"},
-     {:cowboy, "~> 1.0"},
+    [{:plug_cowboy, "~> 2.0"},
      {:httpoison, "~> 0.9"},
 
      {:earmark, "~> 1.0", only: :dev},
